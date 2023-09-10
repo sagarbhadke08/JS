@@ -13,7 +13,7 @@ const name = "Akash"
 const number = 50
 
 // console.log(name + number);
-//* In todays world it is outdated syntax so we use bacticks
+// In todays world it is outdated syntax so we use bacticks
 // so we write like this
 
 /*console.log(
