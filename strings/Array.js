@@ -1,6 +1,7 @@
 //?Array
 const myArray = [0,2,3,5,6];
 console.log(myArray);
+//Sagar
 
 //there another way also
 const myArray2 = new Array(0,1,2,5,3);
