@@ -1,6 +1,13 @@
+// <<<<<<< HEAD
 // //?Array
 // const myArray = [0,2,3,5,6];
 // console.log(myArray);
+// =======
+//?Array
+const myArray = [0,2,3,5,6];
+console.log(myArray);
+//Sagar
+// >>>>>>> 8e980c03b2da62080e00bcceb383bc8ee4cdc986
 
 //there another way also
 // const myArray2 = new Array(0,1,2,5,3);
