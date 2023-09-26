@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom4</title>
+</head>
+<body style="background-color: #212121; color:#fff">
+    <div>
+        <ul class="one">
+            <li>Javascript</li>
+        </ul>
+        <ul class="two"></ul>
+        <ul class="three"></ul>
+    </div>
+
+    <script>
+        function addLangauge(lang){
+               const li = document.createElement('li');
+            li.innerHTML = `${lang}`;
+            document.querySelector('.one').
+            appendChild(li);
+            }   
+        addLangauge(Python);    
+    </script>
+</body>
+</html>
