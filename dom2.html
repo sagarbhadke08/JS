@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-   <ul class="language">
-        <li>Javascript</li>
-   </ul>
 
-   
+<body>
+    <ul class="language">
+        <li>Javascript</li>
+    </ul>
+
+
 </body>
 <script>
     //* function addLang(langName){
@@ -30,15 +32,14 @@
     // addLanguage("typescript")
 
     //?This is optimal approach
-    function addOptLang(langName){
+    function addOptLang(langName) {
         const li = document.createElement('li');
         // const textNode = document.createTextNode(langName);
         // li.appendChild(textNode);
-        
+
         li.appendChild(document.createTextNode(langName));
         document.querySelector('.language').appendChild(li);
     }
 
     addOptLang("Go")
 </script>
-</html>
