@@ -7,7 +7,7 @@ export const boldBtn = document.querySelector(".bold-div");
 
 export const underlineBtn = document.querySelector(".underline-div");
 
-//const copyBtn = document.querySelector(".copy-div");
+const copyBtn = document.querySelector(".copy-div");
 
 const saveBtn = document.querySelector(".save-div");
 const selectedText = document.querySelector("textarea");
